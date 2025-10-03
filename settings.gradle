@@ -10,4 +10,4 @@ pluginManagement {
 }
 
 // Use the local Yiv's API project during development
-includeBuild("../Yiv's API")
+// includeBuild("../Yiv's API") // Commented out for GitHub Actions

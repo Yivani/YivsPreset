@@ -1,7 +1,7 @@
 {
 	"required": true,
 	"package": "yiv.yivspresets.mixin.client",
-	"plugin": "dev.yivs.api.mixin.YivsMixinPlugin",
+	"plugin": "net.fabricmc.loader.impl.launch.knot.Knot",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

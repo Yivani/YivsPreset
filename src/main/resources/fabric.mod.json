@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "yivs-presets",
+	"version": "${version}",
+	"name": "Yiv’s Presets",
+	"description": "Client-only presets you can cycle with one key (F9). Save Build/Explore/Combat render profiles, persist per world/server, get a HUD toast, and edit everything in a clean settings screen.",
+	"authors": [
+		"Yivani"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/r4nAbgaZs7",
+		"issues": "https://github.com/Yivani/Yivs-Presets/issues"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/yivs-presets/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"yiv.yivspresets.YivsPresets"
+		],
+		"client": [
+			"yiv.yivspresets.YivsPresetsClient"
+		],
+		"modmenu": [
+			"yiv.yivspresets.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"yivs-presets.mixins.json",
+		{
+			"config": "yivs-presets.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

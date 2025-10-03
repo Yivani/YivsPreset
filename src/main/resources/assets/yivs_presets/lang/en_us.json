@@ -1,0 +1,6 @@
+{
+	"modmenu.descriptionTranslation.yivs-presets": "Cycle performance presets with one key.",
+	"yivs_presets.title": "Yiv's Presets",
+	"yivs_presets.applied": "Applied preset: %s",
+	"key.yivspresets.cycle": "Cycle Performance Preset"
+}

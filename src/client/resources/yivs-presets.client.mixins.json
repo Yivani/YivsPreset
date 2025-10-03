@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "yiv.yivspresets.mixin.client",
+	"plugin": "dev.yivs.api.mixin.YivsMixinPlugin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

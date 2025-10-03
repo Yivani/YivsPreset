@@ -9,8 +9,8 @@ import net.minecraft.client.MinecraftClient;
 
 @Mixin(MinecraftClient.class)
 public class ExampleClientMixin {
-	@Inject(at = @At("HEAD"), method = "run")
+	@Inject(at = @At("HEAD"), method = "tick")
 	private void init(CallbackInfo info) {
-		// This code is injected into the start of MinecraftClient.run()V
+		// This code is injected into the start of MinecraftClient.tick()V
 	}
 }
